@@ -28,8 +28,8 @@ cask "nettle" do
   ]
 
   caveats <<~EOS
-    nettle releases are not code-signed yet. macOS will quarantine the app;
-    either right-click -> Open on first launch, or install with:
-      brew install --cask --no-quarantine gitu/tap/nettle
+    nettle releases are not code-signed yet. On first launch either
+    right-click -> Open, or clear the quarantine flag:
+      xattr -dr com.apple.quarantine /Applications/nettle.app
   EOS
 end

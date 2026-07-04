@@ -6,8 +6,9 @@ Homebrew tap for [nettle](https://github.com/gitu/nettle) and friends.
 brew install --cask gitu/tap/nettle
 ```
 
-nettle builds are not code-signed yet; to skip the Gatekeeper quarantine:
+nettle builds are not code-signed yet; on first launch either right-click ->
+Open, or clear the quarantine flag:
 
 ```sh
-brew install --cask --no-quarantine gitu/tap/nettle
+xattr -dr com.apple.quarantine /Applications/nettle.app
 ```
