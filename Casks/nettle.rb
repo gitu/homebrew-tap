@@ -1,8 +1,7 @@
 cask "nettle" do
-  version "0.1.0"
-
   arch arm: "aarch64", intel: "x64"
 
+  version "0.1.0"
   sha256 arm:   "cdc7c2e4bcf9343b31ff19b185c4d21d991e5aeb6c8eed369a09e3c0bc0ade56",
          intel: "4b88b0fffdaeebc4fb2ea74ee0e6dac56d9a3ce47c21cc42afe012aeda738708"
 
@@ -15,6 +14,8 @@ cask "nettle" do
     url :url
     strategy :github_latest
   end
+
+  depends_on :macos
 
   app "nettle.app"
 
