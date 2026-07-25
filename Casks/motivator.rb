@@ -1,9 +1,9 @@
 cask "motivator" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.3.0"
-  sha256 arm:   "3f3bcc0a1c01674ed4750f3c9ade19fc45da1e2702c57019c89ef118c9a3d719",
-         intel: "ba397aa2e6c8a0a83d31fdd586bb1077cb45124e657455641f9462a504f7aad9"
+  version "0.4.0"
+  sha256 arm:   "889cb729c3598cb165da8a81198e9e72d6119d1a19a635ba83319572aeedec2d",
+         intel: "26360572e11640596ff7a69fed41a6b465363f6ca180f48793b1bb86fd7dc2ee"
 
   url "https://github.com/gitu/motivator/releases/download/v#{version}/motivator-#{arch}-macos.tar.gz"
   name "motivator"
