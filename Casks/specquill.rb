@@ -1,9 +1,9 @@
 cask "specquill" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.0"
-  sha256 arm:   "da0b8c8cf4862d1ee1d3da1019598c866d0278c180d387b300b19faee7dbc0e2",
-         intel: "f6d771f31307f62a5560767af03db289c79e928741a6e063b992e9ed444f6ad8"
+  version "0.2.1"
+  sha256 arm:   "e59fa341e221fc8bc1d51ae006e7986125b71cbdfe485a22caa6ab1872dd3a9e",
+         intel: "3f4bddcdb330a84fd92cd49dbafc57a29bfb75fb509c17b3207a6c78a170f8e8"
 
   url "https://github.com/gitu/specquill/releases/download/v#{version}/specquill_v#{version}_darwin_#{arch}.tar.gz"
   name "specquill"
