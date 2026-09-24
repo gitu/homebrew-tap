@@ -1,9 +1,9 @@
 cask "nettle" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.0"
-  sha256 arm:   "97b2e9672eebacf0ca8723498a0a6a8289bc89cb85246b604cba9e6aacb1c3ae",
-         intel: "82aef31568c04df6a86aeee1ec7aeb5f267e4753239fef6132bc463b6e69c8b2"
+  version "0.5.0"
+  sha256 arm:   "7794d0835c8c8a19fa6d2980785cf643e7282cd614bfb4825e1f00f878137f7c",
+         intel: "3db36f637dc67742ab12893f94de9c529df9ba9aff10546e1ebb821c3479c167"
 
   url "https://github.com/gitu/nettle/releases/download/v#{version}/nettle_#{version}_#{arch}.dmg"
   name "nettle"
