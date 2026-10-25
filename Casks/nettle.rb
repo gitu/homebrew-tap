@@ -1,5 +1,5 @@
 cask "nettle" do
-  version "0.6.3"
+  version "0.6.4"
 
   name "nettle"
   desc "Resilient SSH client with live port discovery and pinned tunnels"
@@ -13,8 +13,8 @@ cask "nettle" do
   on_macos do
     arch arm: "aarch64", intel: "x64"
 
-    sha256 arm:   "071775508869bd92ae6d9830053cbe6dfa724ccca8d4b8e4977ca9da95b466b5",
-           intel: "cff9dfb090adf7f0fbc9d1415d2fac3509682fa6d39342f3f31fbdce6a120ad5"
+    sha256 arm:   "82d32bbc700a8f296abc3c8d2b5e59d38d7596021d623616916a74f57a48b984",
+           intel: "5b269658ce897b04f7d4cb55fff8f23355a283d182384f6f33c2e05bb9a6981e"
 
     url "https://github.com/gitu/nettle/releases/download/v#{version}/nettle_#{version}_#{arch}.dmg"
 
@@ -38,7 +38,7 @@ cask "nettle" do
   on_linux do
     depends_on arch: :x86_64
 
-    sha256 "862238226fa2fefc687f4aefa934f0767e21d3b4b4a37353ec1ee1489ff8f778"
+    sha256 "b37ca73132c5fde0165e4783c435c6968818d49a4689afd2dae25671284652ca"
 
     url "https://github.com/gitu/nettle/releases/download/v#{version}/nettle_#{version}_amd64.AppImage"
 
